@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-pdf-generate",
+  "version": "1.0.0",
+  "description": "Create PDF using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Srinivas Rao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "html-pdf": "^2.1.0",
+    "nunjucks": "^2.5.2",
+    "phantom": "^3.0.0",
+    "phantomjs": "^2.1.7",
+    "requestify": "^0.2.4"
+  }
+}
